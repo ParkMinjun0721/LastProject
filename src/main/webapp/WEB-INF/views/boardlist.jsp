@@ -42,6 +42,36 @@
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
+        .table {
+            border-collapse: separate;
+            border-spacing: 0 15px;
+            width: 100%;
+        }
+
+        .table th, .table td {
+            text-align: left;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .table thead th {
+            background-color: #add8e6;
+            color: #333;
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+        }
+
+        /* 테이블 바디 스타일 */
+        .table tbody tr:nth-child(odd) {
+            background-color: #f0f8ff;
+        }
+
+        .table tbody tr:nth-child(even) {
+            background-color: #e6f5ff;
+        }
+
+        .table tbody td {
+            font-family: 'Arial Rounded MT Bold', sans-serif;
+        }
         .table .btn {
             color: white;
             padding: 5px 10px;
