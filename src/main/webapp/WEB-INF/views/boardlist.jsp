@@ -68,13 +68,14 @@
 <div class="table-responsive small">
     <table class="table table-striped table-sm">
         <tr>
-            <th>Id</th>
+            <th>ID</th>
             <th>Title</th>
             <th>Category</th>
             <th>Content</th>
             <th>Deadline</th>
+            <th>Reg Date</th>
+            <th>Priority</th>
             <th>Status</th>
-            <th>Regdate</th>
             <th>Edit</th>
             <th>Delete</th>
             <th>View</th>

@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -24,7 +25,7 @@
 </head>
 <body>
 <div style='width:100%; text-align:center; padding-top:100px'>
-    <img src="img/sample.png" height="250">
+    <img src="../img/sample.png" width="250"/>
     <div class="subtitle">현대인을 위한 플래너</div>
     <form method="post" action="loginOk">
         <div><label>User ID: </label><input type='text' name='userid' /></div>
